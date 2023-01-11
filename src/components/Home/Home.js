@@ -23,6 +23,7 @@ export default function Home() {
         setSubtitle={setSubtitle}
         subtitle={subtitle}
         setText={setText}
+        text={text}
         setFont={setFont}
         font={font}
         setAlign={setAlign}
