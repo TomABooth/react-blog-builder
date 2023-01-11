@@ -8,7 +8,7 @@ import './Home.css';
 export default function Home() {
   // add useState calls here for title, subtitle, font, align, and text
   const [title, setTitle] = useState('');
-  const [subtitle, setSubTitle] = useState('');
+  const [subtitle, setSubtitle] = useState('');
   const [font, setFont] = useState('comforter');
   const [align, setAlign] = useState('center');
   const [text, setText] = useState('');
@@ -20,7 +20,8 @@ export default function Home() {
       <Editor
         setTitle={setTitle}
         title={title}
-        setSubTitle={setSubTitle}
+        setSubtitle={setSubtitle}
+        subtitle={subtitle}
         setText={setText}
         setFont={setFont}
         setAlign={setAlign}
