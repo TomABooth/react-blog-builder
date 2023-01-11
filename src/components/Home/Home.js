@@ -26,6 +26,7 @@ export default function Home() {
         setFont={setFont}
         font={font}
         setAlign={setAlign}
+        align={align}
       />
     </main>
   );
